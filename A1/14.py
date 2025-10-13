@@ -1,3 +1,6 @@
 text = "hola"
-for i in text(4,1,-1):
-    print(i)
+invertda = ""
+
+for letra in text:
+    invertda = letra + invertda
+print(invertda)
