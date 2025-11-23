@@ -3,4 +3,6 @@ cotxe = {
     "model": "Corolla",
     "any": 2022
 }
-print(cotxe["marca"])
+cotxe["color"] = "vermell"
+del cotxe["any"]
+print(cotxe)
